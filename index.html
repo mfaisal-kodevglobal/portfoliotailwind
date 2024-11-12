@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Portfolio Muhammad Faisal</title>
+    <meta name="description" content="Portfolio Muhammad Faisal."/>
+    <meta name="keywords" content="responsive, html5"/>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-800 font-sans text-gray-300 leading-relaxed tracking-wide">
+
+<div class="container mx-auto px-6">
+  <!-- section start-page -->
+  <section class="start-page bg-cover bg-center relative text-white py-24" style="background-image: url('your-image-url');" id="home">
+    <div class="absolute inset-0 bg-black opacity-60"></div>
+    <div class="relative z-10 text-center">
+      <div class="max-w-4xl mx-auto">
+        <h1 class="text-5xl font-extrabold mb-6 text-yellow-400">Portfolio <br/>
+          <span class="text-3xl text-teal-400">Muhammad Faisal</span>
+        </h1>
+        <p class="text-2xl mb-8">Building a Future in WEB 3.0 Development.</p>
+        <a href="#about-us" class="text-lg bg-teal-500 hover:bg-teal-600 text-white py-2 px-6 rounded-full transition duration-300">Read more</a>
+      </div>
+    </div>
+    <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2">
+      <a href="#about-us">
+        <div class="text-3xl text-white animate-bounce">↓</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- section menu -->
+  <section class="menu bg-gray-900 text-white py-6 sticky top-0 z-50 shadow-lg">
+    <div class="flex justify-between items-center container">
+      <div class="text-xl font-semibold text-yellow-400">Muhammad Faisal</div>
+      <ul class="hidden md:flex space-x-10">
+        <li><a href="#home" class="hover:text-teal-400 transition duration-300">HOME</a></li>
+        <li><a href="#about-us" class="hover:text-teal-400 transition duration-300">ABOUT US</a></li>
+        <li><a href="#portfolio" class="hover:text-teal-400 transition duration-300">PORTFOLIO</a></li>
+        <li><a href="#contact" class="hover:text-teal-400 transition duration-300">CONTACT</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- section about us -->
+  <section class="about-us py-20 bg-gray-900" id="about-us">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-semibold text-teal-400">ABOUT US</h1>
+      <hr class="mx-auto my-4 w-24 border-t-2 border-teal-400"/>
+      <p class="text-xl text-gray-400">Looking forward to a challenging career in industries and organizations related to Web Application and Open Source fields.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div class="column-one space-y-4">
+        <h2 class="text-2xl font-semibold text-teal-400">Personal Information</h2>
+        <p>Name: Muhammad Faisal</p>
+        <p>Phone: 0333-1234567</p>
+        <p>Email: abc@gmail.com</p>
+      </div>
+      <div class="column-two space-y-4">
+        <h2 class="text-2xl font-semibold text-teal-400">Education</h2>
+        <p>Masters: MCS From Virtual University</p>
+        <p>Bachelors: BCS(CS) From Karachi University</p>
+        <p>Intermediate: From Inter Board Karachi</p>
+        <p>Matriculation: Matric Board Karachi</p>
+      </div>
+      <div class="column-three space-y-4">
+        <h2 class="text-2xl font-semibold text-teal-400">Skills</h2>
+        <p>HTML, CSS, JavaScript, jQuery, Ajax</p>
+        <p>PHP, MySQL, Bootstrap, Media Query</p>
+        <p>WordPress, CodeIgniter, Laravel</p>
+        <p>MERN, Artificial Intelligence</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- portfolio -->
+  <section class="portfolio py-20 bg-gray-900" id="portfolio">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-semibold text-teal-400">PORTFOLIO</h1>
+      <hr class="mx-auto my-4 w-24 border-t-2 border-teal-400"/>
+    </div>
+    <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+      <li class="border rounded-lg overflow-hidden shadow-lg bg-gray-800 hover:shadow-2xl transition duration-300">
+        <a href="#">
+          <img src="img/portfolio/1.png" alt="Portfolio item" class="w-full h-48 object-cover"/>
+          <div class="p-6">
+            <p class="font-semibold text-lg text-teal-400">PORTFOLIO 1</p>
+            <p class="text-gray-400 text-sm">Project development Manager (2022-present) in Kodev Global Pvt. Ltd</p>
+          </div>
+        </a>
+      </li>
+      <li class="border rounded-lg overflow-hidden shadow-lg bg-gray-800 hover:shadow-2xl transition duration-300">
+        <a href="#">
+          <img src="img/portfolio/2.png" alt="Portfolio item" class="w-full h-48 object-cover"/>
+          <div class="p-6">
+            <p class="font-semibold text-lg text-teal-400">PORTFOLIO 2</p>
+            <p class="text-gray-400 text-sm">Asst. Project Manager (2021-2022) in Cloud Peanuts</p>
+          </div>
+        </a>
+      </li>
+      <li class="border rounded-lg overflow-hidden shadow-lg bg-gray-800 hover:shadow-2xl transition duration-300">
+        <a href="#">
+          <img src="img/portfolio/3.png" alt="Portfolio item" class="w-full h-48 object-cover"/>
+          <div class="p-6">
+            <p class="font-semibold text-lg text-teal-400">PORTFOLIO 3</p>
+            <p class="text-gray-400 text-sm">PHP Developer (2020-2021) in PGA</p>
+          </div>
+        </a>
+      </li>
+      <!-- Repeat for other portfolio items -->
+    </ul>
+    <a href="#" class="text-lg text-teal-500 hover:text-teal-700 mt-8 block text-center">Load more</a>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact py-20 bg-gray-900" id="contact">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-semibold text-teal-400">Work Experience</h1>
+      <hr class="mx-auto my-4 w-24 border-t-2 border-teal-400"/>
+    </div>
+    <div class="flex flex-col md:flex-row justify-center items-center">
+      <div class="form bg-gray-800 p-8 rounded-lg shadow-lg w-full max-w-lg">
+        <form action="#" method="post" enctype="text/plain">
+          <input name="your-name" id="your-name" placeholder="YOUR NAME" class="w-full p-4 mb-6 bg-gray-700 text-white border border-gray-600 rounded-lg"/>
+          <input name="your-email" id="your-email" placeholder="YOUR E-MAIL" class="w-full p-4 mb-6 bg-gray-700 text-white border border-gray-600 rounded-lg"/>
+          <textarea id="message" name="message" placeholder="MESSAGE" class="w-full p-4 mb-6 bg-gray-700 text-white border border-gray-600 rounded-lg"></textarea>
+          <a href="#" class="block text-center bg-teal-500 hover:bg-teal-600 text-white py-2 px-6 rounded-full transition duration-300">SEND</a>
+        </form>
+      </div>
+      <div class="contact-text text-center md:text-left text-gray-400 mt-8 md:mt-0 md:ml-12">
+        <p>To contact me, please use the form above or email me at:</p>
+        <strong class="text-xl text-teal-400">Muhammad Faisal</strong><br>
+        <strong class="text-xl">Email: contact@abc.com</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section class="footer py-8 bg-gray-900 text-white text-center">
+    <div class="copyright">&copy; 2024</div>
+  </section>
+</div>
+
+</body>
+</html>
